@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Villa | Full Stack .NET Developer</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dynamic-background" aria-hidden="true">
+
+        <div id="particles-js"></div>
+
+        <div class="gradient-overlay"></div>
+
+    </div>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="logo" href="#top" aria-label="Return to top">MV</a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+                <span class="menu-toggle-bar"></span>
+                <span class="menu-toggle-bar"></span>
+                <span class="menu-toggle-bar"></span>
+            </button>
+            <nav class="site-nav" id="primary-navigation" data-visible="false">
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#experience" data-i18n="nav.experience">Experience</a>
+                <a href="#projects" data-i18n="nav.projects">Projects</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <div class="controls">
+                <button id="themeToggle" class="icon-button" aria-label="Toggle theme">
+                    <span class="theme-icon">Light</span>
+                </button>
+                <div class="language-switch">
+                    <button data-lang="en" class="lang-button active">EN</button>
+                    <button data-lang="es" class="lang-button">ES</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="top">
+            <div class="hero-content">
+                <p class="eyebrow" data-i18n="hero.eyebrow">Full Stack .NET Developer</p>
+                <h1 data-i18n="hero.title">Building resilient enterprise systems and polished product experiences.</h1>
+                <p class="lead" data-i18n="hero.subtitle">
+                    I design and deliver secure, data-driven platforms that scale - blending deep .NET expertise with cloud-native architecture and a collaborative mindset.
+                </p>
+                <div class="hero-cta">
+                    <a class="primary" href="#projects" data-i18n="hero.cta.primary">View Featured Work</a>
+                    <a class="secondary" href="#contact" data-i18n="hero.cta.secondary">Let's Collaborate</a>
+                </div>
+            </div>
+            <div class="hero-highlights">
+                <article class="highlight-card">
+                    <h3 data-i18n="hero.card1.title">End-to-End Delivery</h3>
+                    <p data-i18n="hero.card1.body">From architecture to deployment, I modernize legacy ecosystems and launch greenfield initiatives with measurable impact.</p>
+                </article>
+                <article class="highlight-card">
+                    <h3 data-i18n="hero.card2.title">Cloud & Data Focused</h3>
+                    <p data-i18n="hero.card2.body">Azure, AWS, SQL Server, and Service Broker expertise ensure secure integrations, optimized performance, and maintainable codebases.</p>
+                </article>
+                <article class="highlight-card">
+                    <h3 data-i18n="hero.card3.title">Bilingual Leadership</h3>
+                    <p data-i18n="hero.card3.body">Fluent in English and Spanish, I bridge technical teams and stakeholders across global initiatives.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section photo-section" id="portrait">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="portrait.eyebrow">Human Touch</p>
+                <h2 data-i18n="portrait.title">Putting a face to the code.</h2>
+            </div>
+            <div class="photo-grid">
+                <figure class="photo-card" data-animate>
+                    <img src="assets/images/ProfilePic.JPG" alt="Portrait of Michael Villa">
+                    <figcaption data-i18n="portrait.caption">Michael Villa, Full Stack .NET Developer</figcaption>
+                </figure>
+                <p class="photo-description" data-i18n="portrait.body">This space spotlights the person behind the solutions—swap in your photo to personalize client introductions.</p>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="about.eyebrow">Profile</p>
+                <h2 data-i18n="about.title">Strategic technologist delivering secure, scalable solutions.</h2>
+            </div>
+            <div class="section-grid">
+                <p data-i18n="about.body">
+                    With over a decade architecting enterprise platforms, I combine software craftsmanship with a strong business lens. I thrive in highly regulated environments, modernizing .NET systems, streamlining data flows, and mentoring teams to deliver resilient solutions.
+                </p>
+                <ul class="about-list">
+                    <li data-i18n="about.point1">Polyglot developer comfortable across C#, VB.NET, SQL, JavaScript, and modern frontend frameworks.</li>
+                    <li data-i18n="about.point2">Experienced in global deployments, hybrid cloud, and performance-sensitive integrations.</li>
+                    <li data-i18n="about.point3">Business-savvy collaborator who translates complex requirements into actionable roadmaps.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="experience.eyebrow">Experience</p>
+                <h2 data-i18n="experience.title">Leading mission-critical initiatives across finance, healthcare, and SaaS.</h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item" data-animate>
+                    <header>
+                        <h3>Dexian / Brink's</h3>
+                        <span class="meta" data-i18n="experience.item1.date">Feb 2025 - Present</span>
+                    </header>
+                    <p data-i18n="experience.item1.body">
+                        Senior .NET consultant designing high-availability routing platforms, modernizing APIs, and orchestrating SQL Server messaging at global scale.
+                    </p>
+                    <ul>
+                        <li data-i18n="experience.item1.point1">Built REST APIs across .NET 4.x and .NET 8 with automated test suites.</li>
+                        <li data-i18n="experience.item1.point2">Optimized Service Broker pipelines to reduce latency between branch and central systems.</li>
+                        <li data-i18n="experience.item1.point3">Enhanced WPF dashboards with data visualizations for field operations.</li>
+                    </ul>
+                </article>
+                <article class="timeline-item" data-animate>
+                    <header>
+                        <h3>RLDatix</h3>
+                        <span class="meta" data-i18n="experience.item2.date">May 2023 - Jan 2025</span>
+                    </header>
+                    <p data-i18n="experience.item2.body">
+                        Delivered secure web platforms, data integrations, and identity migrations for healthcare compliance solutions.
+                    </p>
+                    <ul>
+                        <li data-i18n="experience.item2.point1">Migrated enterprise SSO from PING to Okta and led Azure DevOps release pipelines.</li>
+                        <li data-i18n="experience.item2.point2">Extended Entity Framework data layers to support evolving client workflows.</li>
+                        <li data-i18n="experience.item2.point3">Designed XML-driven integrations and utilities that automated client operations.</li>
+                    </ul>
+                </article>
+                <article class="timeline-item" data-animate>
+                    <header>
+                        <h3>Brink's Inc</h3>
+                        <span class="meta" data-i18n="experience.item3.date">Sep 2019 - Mar 2023</span>
+                    </header>
+                    <p data-i18n="experience.item3.body">
+                        Architected global cash logistics platforms, integrating third-party devices, APIs, and analytics capabilities.
+                    </p>
+                    <ul>
+                        <li data-i18n="experience.item3.point1">Led system integrations across vendor ecosystems with secure data exchanges.</li>
+                        <li data-i18n="experience.item3.point2">Optimized SQL Server performance and infrastructure planning.</li>
+                        <li data-i18n="experience.item3.point3">Facilitated cross-functional delivery with distributed teams.</li>
+                    </ul>
+                </article>
+                <article class="timeline-item" data-animate>
+                    <header>
+                        <h3>Earlier Roles</h3>
+                        <span class="meta" data-i18n="experience.item4.date">2013 - 2019</span>
+                    </header>
+                    <p data-i18n="experience.item4.body">
+                        Engineer and consultant delivering WinForms, WPF, and VB.NET solutions, modernizing legacy stacks and automating data pipelines.
+                    </p>
+                    <ul>
+                        <li data-i18n="experience.item4.point1">Modernized VB.NET systems to C# at ECi Software Solutions.</li>
+                        <li data-i18n="experience.item4.point2">Built SSRS analytics and ETL processes for healthcare clients at BCBSTX.</li>
+                        <li data-i18n="experience.item4.point3">Developed GIS-integrated ETL services for environmental research at TAMIU.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="projects.eyebrow">Featured Projects</p>
+                <h2 data-i18n="projects.title">Showcasing platforms that blend robust engineering with refined UX.</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-animate>
+                    <div class="project-meta">
+                        <span data-i18n="projects.project1.role">Lead Full Stack Developer</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <h3>Procurement Specialist - Operations Strategist</h3>
+                    <p data-i18n="projects.project1.body">
+                        Produced AnaLiliaVilla.com, a procurement portfolio with KPI spotlights, animated milestones, and theme-aware storytelling that elevates her LEGO program leadership for executive recruiters.
+                    </p>
+                    <ul class="project-tags">
+                        <li>.NET 8</li>
+                        <li>Azure Static Web Apps</li>
+                        <li>Headless CMS</li>
+                        <li>GSAP Animations</li>
+                    </ul>
+                    <a class="project-link" href="https://www.analiliavilla.com" target="_blank" rel="noopener">Visit Site</a>
+                </article>
+                <article class="project-card" data-animate>
+                    <div class="project-meta">
+                        <span data-i18n="projects.project2.role">Solutions Architect</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <h3>Route Intelligence Platform</h3>
+                    <p data-i18n="projects.project2.body">
+                        Orchestrated a global cash logistics platform, synchronizing route telemetry, device diagnostics, and KPI dashboards across secure SQL Server clusters.
+                    </p>
+                    <ul class="project-tags">
+                        <li>.NET 6</li>
+                        <li>Service Broker</li>
+                        <li>Azure Functions</li>
+                        <li>Power BI</li>
+                    </ul>
+                    <a class="project-link" href="#" data-i18n="projects.project2.link">Case Study Coming Soon</a>
+                </article>
+                <article class="project-card" data-animate>
+                    <div class="project-meta">
+                        <span data-i18n="projects.project3.role">Senior .NET Developer</span>
+                        <span class="year">2022</span>
+                    </div>
+                    <h3>Healthcare Compliance Portal</h3>
+                    <p data-i18n="projects.project3.body">
+                        Delivered configurable compliance workflows with single sign-on, audit-ready reporting, and multi-tenant provisioning for healthcare networks.
+                    </p>
+                    <ul class="project-tags">
+                        <li>ASP.NET Core</li>
+                        <li>Okta</li>
+                        <li>Entity Framework</li>
+                        <li>Azure DevOps</li>
+                    </ul>
+                    <a class="project-link" href="#" data-i18n="projects.project3.link">View Prototype</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="skills.eyebrow">Expertise</p>
+                <h2 data-i18n="skills.title">Technical breadth anchored in enterprise delivery.</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-column" data-animate>
+                    <h3 data-i18n="skills.column1">Core Engineering</h3>
+                    <ul>
+                        <li>.NET (C#, VB.NET)</li>
+                        <li>REST & GraphQL APIs</li>
+                        <li>Event-driven Architecture</li>
+                        <li>WPF & WinForms</li>
+                        <li>Microservices</li>
+                    </ul>
+                </div>
+                <div class="skill-column" data-animate>
+                    <h3 data-i18n="skills.column2">Data & Cloud</h3>
+                    <ul>
+                        <li>SQL Server, MySQL, Oracle</li>
+                        <li>Service Broker, CDC, ETL</li>
+                        <li>Azure & AWS Deployments</li>
+                        <li>Azure DevOps Pipelines</li>
+                        <li>SSRS Reporting</li>
+                    </ul>
+                </div>
+                <div class="skill-column" data-animate>
+                    <h3 data-i18n="skills.column3">Collaboration</h3>
+                    <ul>
+                        <li>Technical Architecture</li>
+                        <li>Team Mentorship</li>
+                        <li>Bilingual Communication</li>
+                        <li>Stakeholder Workshops</li>
+                        <li>Process Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow" data-i18n="contact.eyebrow">Let's Connect</p>
+                <h2 data-i18n="contact.title">Ready to discuss complex systems or new product ideas?</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card" data-animate>
+                    <h3 data-i18n="contact.cta">Get in Touch</h3>
+                    <p data-i18n="contact.body">I am available for consulting engagements, leadership roles, and high-impact build-outs. Share your challenge - let's explore the solution together.</p>
+                    <ul class="contact-details">
+                        <li><span>Location:</span><span data-i18n="contact.location">Fort Worth, Texas</span></li>
+                    </ul>
+                    <div class="contact-actions">
+                        <a class="contact-action primary" href="mailto:MichaelVilla85@gmail.com" data-i18n="contact.actions.email">Email Michael</a>
+                        <a class="contact-action secondary contact-linkedin" href="https://www.linkedin.com/in/michael-villa-34919157/" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M19 0H5C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM8 20H4V9h4v11zm-2-12.3c-1.27 0-2.3-1.03-2.3-2.3S4.73 3.1 6 3.1s2.3 1.03 2.3 2.3S7.27 7.7 6 7.7zM20 20h-4v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95V20h-4V9h3.84v1.5h.05c.54-1.02 1.86-2.1 3.83-2.1 4.1 0 4.86 2.7 4.86 6.2V20z" />
+                            </svg>
+                            <span data-i18n="contact.actions.linkedin">Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" data-animate>
+                    <div class="form-row">
+                        <label for="name" data-i18n="contact.form.nameLabel">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Jane Doe" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email" data-i18n="contact.form.emailLabel">Email</label>
+                        <input id="email" name="email" type="email" placeholder="jane@company.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message" data-i18n="contact.form.messageLabel">Project Details</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your goals..." required></textarea>
+                    </div>
+                    <button type="submit" class="primary" data-i18n="contact.form.submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Michael Villa. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="assets/vendor/particles.min.js"></script>
+    <script src="assets/script.js" type="module"></script>    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
